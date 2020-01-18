@@ -1,6 +1,19 @@
-const restify = require('restify');
+const http = require('http');
 
-const PORT = 5000;
-const app = restify.createServer();
-app.get('/', (req, res) => res.send('localhost:5000'));
-app.listen(PORT);
+const server = http.createServer((req, res) => {
+  const { url: categoria } = req;
+
+  if (categoria === '/tecnologia') {
+    res.end(
+      '<html><body>Noticias de tecnologia</body></html>'
+    );
+  } else if (categoria === '/moda') {
+    res.end('<html><body>Noticias de moda</body></html>');
+  } else if (categoria === '/beleza') {
+    res.end('<html><body>Noticias de beleza</body></html>');
+  } else {
+    res.end('<html><body>Portal de notícias</body></html>');
+  }
+});
+
+server.listen(3000);
