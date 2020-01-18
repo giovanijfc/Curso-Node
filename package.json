@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint src/*.js"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -26,6 +23,7 @@
   },
   "husky": {
     "hooks": {
+      "lint": "./node_modules/.bin/eslint src/*.js",
       "pre-commit": "lint"
     }
   }
