@@ -16,6 +16,7 @@
     "linebreak-style": ["error", "windows"],
     "comma-dangle": ["error", "never"],
     "function-paren-newline": "off",
-    "implicit-arrow-linebreak": "off"
+    "implicit-arrow-linebreak": "off",
+    "arrow-parens": "off"
   }
 }

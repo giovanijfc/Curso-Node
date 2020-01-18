@@ -1,11 +1,11 @@
 {
-   "trailingComma": "none",
-   "tabWidth": 2,
-   "semicolons ": true,
-   "singleQuote": true,
-   "useTabs": false,
-   "bracketSpacing": true,
-   "arrowParens": "avoid",
-   "proseWrap": "always",
-   "printWidth": 60
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semicolons ": true,
+  "singleQuote": true,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "proseWrap": "always",
+  "printWidth": 70
 }
