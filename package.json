@@ -23,8 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "lint": "./node_modules/.bin/eslint src/*.js",
-      "pre-commit": "lint"
+      "pre-commit": "./node_modules/.bin/eslint src/*.js"
     }
   }
 }
